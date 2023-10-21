@@ -17,6 +17,9 @@ public class BaseClass {
 		Properties properties=new Properties();
 		properties.getProperty("weburl");
 		driver.get(properties.getProperty("weburl"));
+		{
+			
+		}
 		
 
 
