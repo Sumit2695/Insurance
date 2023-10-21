@@ -16,7 +16,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		Properties properties=new Properties();
 		properties.getProperty("weburl");
-		driver.get(properties.getProperty("weburll"));
+		driver.get(properties.getProperty("weburl"));
 		
 
 
